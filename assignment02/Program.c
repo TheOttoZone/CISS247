@@ -19,6 +19,7 @@ int main()
 	//Process & Output
 	OutputAsHexCharacters(value);
 
+	// yeah theres definitely code here to implement a "press enter key to continue"
 	printf("Press the enter key to continue...\n");
 
 	return 0;
