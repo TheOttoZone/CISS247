@@ -1,0 +1,15 @@
+DSS h03
+DWORD h01
+DWORD h02
+DWORD h00
+MOVI R0, h00
+LDR R1, [R0 + h0]
+LDR R2, [R0 + h1]
+CMP R3, R1, R2
+BL R3, h06
+STR R1, [R0 + h2]
+B h004
+STR R2, [R0 + h2]
+LDR R3, [R0 + h2]
+ADD R0, R0, R3
+HALT
